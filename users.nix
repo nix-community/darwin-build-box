@@ -13,6 +13,11 @@ let
       trusted = true;
       uid = 503;
     }
+    {
+      name = "hexa";
+      trusted = true;
+      uid = 504;
+    }
   ];
 in
 {
