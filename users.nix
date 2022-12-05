@@ -8,6 +8,11 @@ let
       trusted = true;
       uid = 502;
     }
+    {
+      name = "stephank";
+      trusted = true;
+      uid = 503;
+    }
   ];
 in
 {
