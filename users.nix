@@ -18,6 +18,11 @@ let
       trusted = true;
       uid = 504;
     }
+    {
+      name = "0x4A6F";
+      trusted = true;
+      uid = 505;
+    }
   ];
 in
 {
