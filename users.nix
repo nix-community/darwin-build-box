@@ -23,6 +23,11 @@ let
       trusted = true;
       uid = 505;
     }
+    {
+      name = "artturin";
+      trusted = true;
+      uid = 506;
+    }
   ];
 in
 {
