@@ -28,6 +28,11 @@ let
       trusted = true;
       uid = 506;
     }
+    {
+      name = "figsoda";
+      trusted = true;
+      uid = 507;
+    }
   ];
 in
 {
