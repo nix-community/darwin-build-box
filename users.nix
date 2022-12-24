@@ -33,6 +33,11 @@ let
       trusted = true;
       uid = 507;
     }
+    {
+      name = "raitobezarius";
+      trusted = true;
+      uid = 508;
+    }
   ];
 in
 {
