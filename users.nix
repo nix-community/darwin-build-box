@@ -38,6 +38,11 @@ let
       trusted = true;
       uid = 508;
     }
+    {
+      name = "zowoq";
+      trusted = true;
+      uid = 509;
+    }
   ];
 in
 {
