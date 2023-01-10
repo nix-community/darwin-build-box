@@ -43,6 +43,11 @@ let
       trusted = true;
       uid = 509;
     }
+    {
+      name = "k900";
+      trusted = true;
+      uid = 510;
+    }
   ];
 in
 {
