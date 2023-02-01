@@ -48,6 +48,11 @@ let
       trusted = true;
       uid = 510;
     }
+    {
+      name = "julienmalka";
+      trusted = true;
+      uid = 511;
+    }
   ];
 in
 {
