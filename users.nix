@@ -53,6 +53,11 @@ let
       trusted = true;
       uid = 511;
     }
+    {
+      name = "dotlambda";
+      trusted = true;
+      uid = 512;
+    }
   ];
 in
 {
