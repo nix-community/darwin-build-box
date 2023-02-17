@@ -2,6 +2,8 @@ let
   # To add yourself:
   # 1. Add an entry to this list, using the next UID.
   # 2. Create a file in `keys` named your user name that contains your SSH key(s), separated by newlines.
+  # 2a. ssh-keygen -t ed25519 -C "" -f ~/.ssh/winterqt-darwin-build-box
+  # 2b. cat ~/.ssh/winterqt-darwin-build-box.pub >>keys/your_name
   users = [
     {
       name = "winter";
