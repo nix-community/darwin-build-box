@@ -68,6 +68,11 @@ let
       trusted = true;
       uid = 514;
     }
+    {
+      name = "fab";
+      trusted = true;
+      uid = 515;
+    }
   ];
 in
 {
