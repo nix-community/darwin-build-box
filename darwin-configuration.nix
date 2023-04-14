@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, pkgs, ... }:
 
 {
   imports = [ ./users.nix ];
@@ -15,6 +15,9 @@
 
   nix.settings.sandbox = "relaxed";
   nix.settings.extra-platforms = [ "x86_64-darwin" ];
+
+  nix.nrBuildUsers = config.nix.settings.max-jobs * 2;
+  nix.settings.max-jobs = 64;
 
   # Create /etc/zshrc that loads the nix-darwin environment.
   programs.zsh.enable = true; # default shell on catalina
