@@ -79,6 +79,11 @@ let
       uid = 516;
     }
     {
+      name = "emilylange";
+      trusted = true;
+      uid = 517;
+    }
+    {
       name = "toonn";
       trusted = true;
       uid = 542;
