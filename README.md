@@ -90,10 +90,11 @@ $ sudo su
 # ssh your-user-name@darwin-build-box.winter.cafe -i /root/a-private-key
 ```
 
-The fingerprint should always be:
+The public key and fingerprint should always be:
 
 ```
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB0io9E0eXiDIEHvsibXOxOPveSjUPIr1RnNKbUkw3fD
+Fingerprint: SHA256:9YrbQYYrKN/2GKwFgJz0+fpSbaGe1lJuYFQyPMVdwCY
 ```
 
 ***If it is not, please open an issue!***
