@@ -1,3 +1,8 @@
+# Deprecated
+
+The Nix Community organisation now provides a new machine as darwin build box that is managed in [nix-community/infra](https://github.com/nix-community/infra), see https://nix-community.org/community-builder for details.
+
+<details><summary>Previous README:</summary>
 # Want access?
 
 1. You must read literally this entire README. It is critically
@@ -110,3 +115,4 @@ The hosting costs for this machine are paid for by the [Nix 🖤 macOS Collectiv
 
 - [Domen Kožar](https://github.com/domenkozar), for running the [Nix 🖤 macOS Collective](https://opencollective.com/nix-macos).
 - [Graham Christensen](https://github.com/grahamc), for running the [aarch64 build box](https://github.com/nix-community/aarch64-build-box), where I took the structure of this README from.
+</details>
